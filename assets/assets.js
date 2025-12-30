@@ -148,7 +148,7 @@ export const projectsData = {
             github_url: "https://github.com/juanfra312003/pack-my-trip"
         },
         {
-            title: "IArtificialCOL - AI Automations with No-Code",
+            title: "IArtificialCOL - AI Automations",
             description: "AI automation venture co-founded to streamline business processes through workflows.",
             bg_image: "/iartificial-col/background.jpeg",
             long_description_1: "IArtificialCOL is a live venture that I co-founded with one of my best friends. Together, we design and implement AI-powered automations for companies, focusing on turning manual, repetitive workflows into scalable, observable processes that actually move business metrics.",
@@ -228,7 +228,7 @@ export const projectsData = {
         },
         {
             title: "IArtificialCOL – Cofounder Automatizaciones con IA",
-            description: "Empresa cofundada donde automatizamos procesos con IA, brindando eficiencia cercanas al 80%.",
+            description: "Empresa cofundada donde automatizamos procesos con IA.",
             bg_image: "/iartificial-col/background.jpeg",
             long_description_1: "IArtificialCOL es una empresa que cofundé con uno de mis mejores amigos. Diseñamos e implementamos automatizaciones con IA orientadas a procesos de negocio, convirtiendo tareas manuales y repetitivas en flujos automatizados y medibles.",
             inter_image: "/iartificial-col/image-1.png",
