@@ -24,7 +24,7 @@ const About = ({ isDarkMode }) => {
     whileInView={{opacity: 1}}
     transition={{duration: 0.8}}
     viewport={{ once: true }}
-    className='w-full px-[12%] py-10 scroll-mt-22'>
+    className='w-full px-6 md:px-[12%] py-10 scroll-mt-22'>
       
       <motion.h4 
         initial={{opacity: 0, y: -20}}
@@ -38,16 +38,16 @@ const About = ({ isDarkMode }) => {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.5, delay: 0.3}}
         viewport={{ once: true }}
-        className='text-center text-5xl font-Ovo'>{t.about.title}</motion.h2>
+        className='text-center text-3xl md:text-5xl font-Ovo'>{t.about.title}</motion.h2>
 
 
-      <div className='flex w-full flex-col lg:flex-row items-center justify-center gap-20 my-15 max-w-6xl mx-auto'>
+      <div className='flex w-full flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 my-10 lg:my-15 max-w-6xl mx-auto'>
         <motion.div 
           initial={{opacity: 0, x: -50}}
           whileInView={{opacity: 1, x: 0}}
           transition={{duration: 0.6, delay: 0.4}}
           viewport={{ once: true }}
-          className='w-72 sm:w-96 lg:w-115 rounded-3xl max-w-none'>
+          className='w-64 sm:w-80 lg:w-115 rounded-3xl max-w-none'>
         <Image
             src={assets.user_image}
             alt='Juanfra Image'
@@ -62,18 +62,18 @@ const About = ({ isDarkMode }) => {
           transition={{duration: 0.6, delay: 0.5}}
           viewport={{ once: true }}
           className='flex-1'>
-            <p className='mb-10 max-w-2xl font-Ovo text-justify'>
+            <p className='mb-6 lg:mb-10 max-w-2xl font-Ovo text-justify text-sm sm:text-base'>
                 {t.about.paragraph1}
             </p>
 
-            <p className='mb-10 max-w-2xl font-Ovo text-justify'>
+            <p className='mb-6 lg:mb-10 max-w-2xl font-Ovo text-justify text-sm sm:text-base'>
                 {t.about.paragraph2}
             </p>
 
 
-            <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+            <ul className='grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-2xl'>
                 {infoList.map((info, index) => (
-                    <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' key={index}>
+                    <li className='border-[0.5px] border-gray-400 rounded-xl p-4 sm:p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' key={index}>
                         <Image src={mounted && isDarkMode ? info.iconDark : info.icon} alt={t.about.infoItems[index].title} className='w-7 mt-3'/>
                         <h3 
                         className='my-4 font-semibold text-gray-700 dark:text-white'>
@@ -85,7 +85,7 @@ const About = ({ isDarkMode }) => {
 
             <h4 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>{t.about.toolsTitle}</h4>
 
-            <ul className='flex items-center gap-3 sm:gap-5'>
+            <ul className='flex flex-wrap items-center gap-3 sm:gap-5'>
                 {toolsData.map((tool, index) => (
                     <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500' key={index}>
                         <Image src={tool} alt='' className='w-5 sm:w-7'/>
