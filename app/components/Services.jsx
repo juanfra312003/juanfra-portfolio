@@ -53,7 +53,7 @@ const Services = () => {
             <Image src={service.icon} alt='' className='w-10'/>
             <h3 
             className='text-lg my-4 text-gray-800 dark:text-white'>{t.services.items[index].title}</h3>
-            <p className='text-sm text-gray-600 leading-5 dark:text-white/80 line-clamp-3'>{t.services.items[index].description}</p>
+            <p className='text-sm text-gray-600 leading-5 dark:text-white/80 line-clamp-7'>{t.services.items[index].description}</p>
           </motion.div>
         ))}
       </div>

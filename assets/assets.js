@@ -110,7 +110,7 @@ export const assets = {
 export const projectsData = {
     en: [
         {
-            title: "Easy Market – Awarded Thesis (Marketplace SPL)",
+            title: "Easy Market – Awarded Thesis",
             description: "144 marketplace software product derivations tailored for retail businesses.",
             bg_image: "/easy-market/background.jpeg",
             long_description_1: "Small and medium-sized enterprises in Colombia face structural challenges when digitalizing their retail processes. Easy Market bridges this gap with a configurable yet cost-efficient solution that accelerates product commercialization without sacrificing customization.",
@@ -129,8 +129,8 @@ export const projectsData = {
             github_url: "https://github.com/Easy-Market-SPL"
         },
         {
-            title: "Pack My Trip – 1st Place | Tourism 4.0 Hackathon",
-            description: "Mobile application automating travel package acquisition using integrated APIs.",
+            title: "Pack My Trip – 1st Place |  Hackathon",
+            description: "Mobile application automating travel package acquisition.",
             bg_image: "/pack-my-trip/background.jpg",
             long_description_1: "Pack My Trip accelerates the setup and validation of travel packages through a mobile interface designed to reduce friction between operators and travelers. Built during an international hackathon with multidisciplinary teams.",
             inter_image: "/pack-my-trip/image-1.png",
@@ -149,7 +149,7 @@ export const projectsData = {
         },
         {
             title: "IArtificialCOL - AI Automations",
-            description: "AI automation venture co-founded to streamline business processes through workflows.",
+            description: "AI automation to streamline processes.",
             bg_image: "/iartificial-col/background.jpeg",
             long_description_1: "IArtificialCOL is a live venture that I co-founded with one of my best friends. Together, we design and implement AI-powered automations for companies, focusing on turning manual, repetitive workflows into scalable, observable processes that actually move business metrics.",
             inter_image: "/iartificial-col/image-1.png",
@@ -170,8 +170,8 @@ export const projectsData = {
             instagram_url: "https://www.instagram.com/iartificialcol/"
         },
         {
-            title: "All Connected – Software Architecture Project",
-            description: "PWA connecting businesses, suppliers and students through distributed services.",
+            title: "All Connected – Sw Architecture Project",
+            description: "PWA connecting businesses and students.",
             bg_image: "/all-connected/background.jpg",
             long_description_1: "All Connected brings forward a digital environment that empowers local organizations to reach student audiences while promoting cross-segment collaboration. The architecture was shaped from real requirements gathered directly from stakeholders (real-life scenario with teacher guidance).",
             inter_image: "/all-connected/image-1.png",
@@ -189,8 +189,8 @@ export const projectsData = {
 
     es: [
         {
-            title: "Easy Market – Tesis Laureada (SPL de Marketplaces)",
-            description: "144 derivados de software tipo marketplace para empresas de bienes tangibles.",
+            title: "Easy Market – Tesis Laureada",
+            description: "144 derivados de software tipo marketplace",
             bg_image: "/easy-market/background.jpeg",
             long_description_1: "Las pymes colombianas enfrentan barreras al digitalizar la venta de bienes de consumo. Easy Market ofrece una solución flexible que equilibra personalización, rapidez de implementación y viabilidad económica.",
             inter_image: "/easy-market/image-1.png",
@@ -208,8 +208,8 @@ export const projectsData = {
             github_url: "https://github.com/Easy-Market-SPL"
         },
         {
-            title: "Pack My Trip – Ganador Hackathon ANATO Turismo 4.0",
-            description: "Aplicación móvil para automatizar y comercializar paquetes turísticos con servicios externos.",
+            title: "Pack My Trip – Ganador Hackathon ",
+            description: "Aplicación móvil para comercializar paquetes turísticos",
             bg_image: "/pack-my-trip/background.jpg",
             long_description_1: "Pack My Trip reduce la fricción entre viajeros y operadores turísticos mediante una app móvil que agiliza la cotización, personalización y selección de destinos. Se diseñó y desarrolló durante una hackathon internacional de Turismo 4.0.",
             inter_image: "/pack-my-trip/image-1.png",
@@ -227,8 +227,8 @@ export const projectsData = {
             github_url: "https://github.com/juanfra312003/pack-my-trip"
         },
         {
-            title: "IArtificialCOL – Cofounder Automatizaciones con IA",
-            description: "Empresa cofundada donde automatizamos procesos con IA.",
+            title: "IArtificialCOL – Automatización AI",
+            description: "Automatizamos todo tipo de procesos con AI",
             bg_image: "/iartificial-col/background.jpeg",
             long_description_1: "IArtificialCOL es una empresa que cofundé con uno de mis mejores amigos. Diseñamos e implementamos automatizaciones con IA orientadas a procesos de negocio, convirtiendo tareas manuales y repetitivas en flujos automatizados y medibles.",
             inter_image: "/iartificial-col/image-1.png",
@@ -249,8 +249,8 @@ export const projectsData = {
             instagram_url: "https://www.instagram.com/iartificialcol/"
         },
         {
-            title: "All Connected – Proyecto de Arquitectura de Software",
-            description: "PWA para conectar organizaciones, proveedores y estudiantes mediante servicios distribuidos.",
+            title: "All Connected – Arquitectura de Sw",
+            description: "PWA para conectar organizaciones, y estudiantes.",
             bg_image: "/all-connected/background.jpg",
             long_description_1: "All Connected construye un ecosistema digital que conecta comercios locales y organizaciones con estudiantes desde una única plataforma. El proyecto se desarrolló a partir de necesidades reales identificadas con usuarios y clientes institucionales.",
             inter_image: "/all-connected/image-1.png",

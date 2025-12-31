@@ -61,7 +61,7 @@ const Header = () => {
           whileInView={{opacity: 1, y: 0}}
           transition={{duration: 0.6, delay:1}}
           
-          href="/juanfra-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
+          href="/CV-Juan Francisco Ramírez Escobar.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
           {t.header.resumeBtn}
           <Image src={assets.download_icon} alt='' className='w-4'/>
         </motion.a>
